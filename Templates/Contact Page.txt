@@ -1,0 +1,64 @@
+<html>
+<style>
+div{
+ text-align:center;
+ width: 320px;
+ padding: 10px 10px 10px 10px;
+ border: 5px ;
+ box-shadow: 0 0 2px #fff, 0 0 10px #fff, 0 0 20px #0ba9ca, 0 0 30px #0ba9ca,
+ 0 0 40px #0ba9ca, 0 0 50px #0ba9ca;
+ -webkit-animation: blink 0.7s infinite alternate;
+ animation: blink 0.7s infinite alternate;
+ margin-left:35%;
+margin-right:35%;
+margin-top:10%;
+ background-color:#75CE9F;
+position: relative;
+ animation: mymove 2s;
+ animation-fill-mode: backward;
+}
+@keyframes mymove {
+ from {top: 320px;}
+ to {top: 0px; background-color: #DFF5CE;}
+}
+body{
+ background:black;
+}
+body{
+backgroundimage:url("https://th.bing.com/th/id/OIP.hw3_69tfUT0da2L6qy2t6gHaEo?pid=ImgDet&w=3840&h=
+2400&rs=1");
+background-repeat: no-repeat;
+ background-attachment: fixed;
+ background-size: center;
+ background-size: cover;
+}
+.container {
+ border-radius: 5px;
+ padding: 20px;
+}
+}
+</style>
+<body>
+<div class="container">
+<h3>Contact Form</h3>
+ <form action="/action_page.php">
+ <label for="fname">First Name</label>
+ <input type="text" id="fname" name="firstname" placeholder="Your name.."><br><br>
+ <label for="lname">Last Name</label>
+ <input type="text" id="lname" name="lastname" placeholder="Your last name.."><br><br>
+ <label for="country">Country</label>
+ <select id="country" name="country">
+ <option value="australia">Australia</option>
+ <option value="canada">Canada</option>
+ <option value="usa">USA</option>
+ </select><br><br>
+ <textarea id="subject" name="subject" placeholder="Write something.."
+style="height:200px"></textarea>
+<br><br>
+ <input type="submit" value="Submit">
+ </form>
+</div>
+</form>
+</div>
+</body>
+</html>
